@@ -1,5 +1,10 @@
 Kilamanjaro::Application.routes.draw do
+
   devise_for :students
+  
+  get "students/new"
+  
+  match '/signup',  :to => 'students#new'
   
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'

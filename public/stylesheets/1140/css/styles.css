@@ -5,8 +5,8 @@
 body {
   font-size:95%;
   color:#222;
-  background:#cff;
-  font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+  background:#54a09d;
+  font-family: Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -32,7 +32,7 @@ section h1 {
 .container p {
   color: #000;
   line-height: 100px;
-  background: #cff;
+  background: #fff;
   text-align: center;
   margin: 20px 0 0 0;
 }
@@ -40,17 +40,17 @@ section h1 {
 /* Links */
 
 a {
-  color: #09c;
+  color: #54a09d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #069;
+  color: #54a09d;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #069;
+  color: #54a09d;
 }
 
 /* Navigation */
@@ -98,7 +98,7 @@ a.signup_button {
   text-align: center;
   width: 190px;
   color: #fff;
-  background: #006400;
+  background: #54a09d;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;

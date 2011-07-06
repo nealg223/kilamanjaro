@@ -1,6 +1,5 @@
 Kilamanjaro::Application.routes.draw do
-  
-  get "students/new"
+  resources :students  
   
   match '/signup',  :to => 'students#new'
   

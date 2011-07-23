@@ -5,11 +5,7 @@
 body {
   font-size:95%;
   color:#222;
-<<<<<<< HEAD
   background: url(/images/Lake_purple.png) no-repeat #54a09d;
-=======
-  background: url(/images/Lake.png) no-repeat #54a09d;
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
   font-family: Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
@@ -20,10 +16,6 @@ header {
 header img {
   padding: 1em;
   /*background: #fff;*/
-<<<<<<< HEAD
-=======
-display: none;
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 }
 
 section {
@@ -97,7 +89,6 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 =======
 /* Main Logo Image */
 
@@ -110,8 +101,6 @@ nav ul li a:hover {
 	width: 501px;
 }
 
-
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 /* Sign up button */
 
 a.signup_button {
@@ -125,11 +114,8 @@ a.signup_button {
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
-<<<<<<< HEAD
-=======
-position: relative;
-top: 25px;
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
+  position: relative;
+  top: 25px;
 }
 
 /* Round corners */
@@ -140,8 +126,6 @@ top: 25px;
   border-radius:         10px;
 }
 
-<<<<<<< HEAD
-=======
 .round p {
 	line-height: 1.5;
 	margin-top: -51px;
@@ -149,7 +133,6 @@ top: 25px;
 	text-shadow: 1px 1px 2px #000;
 }
 
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 section img {
 	position: relative;
 	margin: 0 auto;
@@ -159,11 +142,7 @@ section img {
 
 footer {
   text-align: center;
-<<<<<<< HEAD
-  margin-top: 10px;
-=======
   margin-top: 100px;
->>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
   width: 710px;
   margin-left: auto;
   margin-right: auto;

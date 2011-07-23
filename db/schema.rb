@@ -10,7 +10,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110706164033) do
+=======
+ActiveRecord::Schema.define(:version => 20110703004607) do
+>>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 
   create_table "students", :force => true do |t|
     t.string   "name"
@@ -19,6 +23,9 @@ ActiveRecord::Schema.define(:version => 20110706164033) do
     t.datetime "updated_at"
   end
 
+<<<<<<< HEAD
   add_index "students", ["email"], :name => "index_students_on_email", :unique => true
 
+=======
+>>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 end

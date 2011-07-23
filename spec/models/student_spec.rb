@@ -19,6 +19,7 @@ describe Student do
     no_email_student = Student.new(@attr.merge(:email => ""))
     no_email_student.should_not be_valid
   end
+<<<<<<< HEAD
   
   it "should reject names that are too long" do
     long_name = "a" * 51
@@ -55,6 +56,8 @@ describe Student do
     student_with_duplicate_email = Student.new(@attr)
     student_with_duplicate_email.should_not be_valid
   end
+=======
+>>>>>>> f6b7d4b5dc5fd35a2ced48630d0e36ff232ac9c7
 end
 
 # == Schema Information

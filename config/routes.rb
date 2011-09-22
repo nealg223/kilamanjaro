@@ -1,16 +1,19 @@
 Kilamanjaro::Application.routes.draw do
   
+  get "pages/landing"
+
   resources :students  
   
   get "students/new"
   
   match '/signup',  :to => 'students#new'
   
+  match '/landing', :to => 'pages#landing'
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
   
-  root :to => "pages#home"
+  root :to => "pages#landing"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
